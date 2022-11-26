@@ -53,6 +53,6 @@ class PokeAdapter(private val pokemons:List<Pokemon>,
     }
 
     override fun getItemCount(): Int {
-        return pokemons.size.
+        return pokemons.size
     }
 }
